@@ -8,18 +8,52 @@
     display: flex
 }
 
-section{
-    background-color: rgb(0, 0, 0);
+section.main-container{
+    background-color: #000000;
     width: 100vw;
-    height:100vh;
-    padding: 5rem 5rem 2rem;
+    height: calc(100vh - 6rem);
+    padding: 5rem 5rem 5rem;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 div.user-cam{
     width: 14rem;
-    height: 9rem;
-    background-color: yellow;
-    margin-top: 0.5vh;
+    height: 8.5rem;
+    background-image: url(https://picsum.photos/224/136);
+    margin-bottom: 1vh;
+    color: #FFFFFF;
+    position: relative;
+}
+
+span.user-name{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.3rem;
+}
+
+section.footer-container{
+    height: 6rem;
+    background-color: #222222;
+}
+
+span.grill-button{
+    top: 0;
+    right: 2%;
+}
+
+span.expand-button{
+    top: 0;
+    right: 0%;
+}
+
+span.button{
+    background-color: grey;
+    padding: 0.2rem;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 0.3rem;
 }
